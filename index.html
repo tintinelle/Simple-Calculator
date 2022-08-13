@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/style/style.css">
+    <title>Calculator</title>
+</head>
+
+<body>
+    <!-- <button class="btn btn-outline-dark btn-lg" onclick="calcSum()">Суммировать</button>
+    <button onclick="calcSubtract()">Вычесть</button>
+    <button onclick="calcMultiply()">Умножить</button>
+    <button onclick="calcDivide()">Разделить</button> -->
+    <main class="main">
+        <fieldset class="main__sum">
+            <legend>Сложение</legend>
+            <div>
+                <label for="firstNumberSum">Введите первое слагаемое:</label>
+                <input type="number" name="firstNumberSum" id="firstNumberSum" />
+            </div>
+            <div>
+                <label for="secondNumberSum">Введите второе слагаемое:</label>
+                <input type="number" name="secondNumberSum" id="secondNumberSum" />
+            </div>
+            <div>
+                <button class="btn btn-outline-dark btn-lg" onclick="calcSum()">Подсчитать</button>
+            </div>
+            <!-- <div>
+                <label for="resultSum">Результат сложения:</label>
+                <input type="number" name="resultSum" id="resultSum" />
+            </div> -->
+            <div>
+                <p>Результат сложения:</p>
+                <div id="resultSum"></div>
+            </div>
+        </fieldset>
+
+        <fieldset class="main__subtract">
+            <legend>Вычитание</legend>
+            <div>
+                <label for="firstNumberSubtract">Введите первое слагаемое:</label>
+                <input type="number" name="firstNumberSubtract" id="firstNumberSubtract" />
+            </div>
+            <div>
+                <label for="secondNumberSubtract">Введите второе слагаемое:</label>
+                <input type="number" name="secondNumberSubtract" id="secondNumberSubtract" />
+            </div>
+            <div>
+                <button class="btn btn-outline-dark btn-lg" onclick="calcSubtract()">Подсчитать</button>
+            </div>
+            <div>
+                <p>Результат вычитания:</p>
+                <div id="resultSubtract"></div>
+            </div>
+        </fieldset>
+
+        <fieldset class="main__multiply">
+            <legend>Умножение</legend>
+            <div>
+                <label for="firstNumberMultiply">Введите первое слагаемое:</label>
+                <input type="number" name="firstNumberMultiply" id="firstNumberMultiply" />
+            </div>
+            <div>
+                <label for="secondNumberMultiply">Введите второе слагаемое:</label>
+                <input type="number" name="secondNumberMultiply" id="secondNumberMultiply" />
+            </div>
+            <div>
+                <button class="btn btn-outline-dark btn-lg" onclick="calcMultiply()">Подсчитать</button>
+            </div>
+            <div>
+                <p>Результат умножения:</p>
+                <div id="resultMultiply"></div>
+            </div>
+        </fieldset>
+
+        <fieldset class="main__divide">
+            <legend>Деление</legend>
+            <div>
+                <label for="firstNumberDivide">Введите первое слагаемое:</label>
+                <input type="number" name="firstNumberDivide" id="firstNumberDivide" />
+            </div>
+            <div>
+                <label for="secondNumberDivide">Введите второе слагаемое:</label>
+                <input type="number" name="secondNumberDivide" id="secondNumberDivide" />
+            </div>
+            <div>
+                <button class="btn btn-outline-dark btn-lg" onclick="calcDivide()">Подсчитать</button>
+            </div>
+            <div>
+                <p>Результат деления:</p>
+                <div id="resultDivide"></div>
+            </div>
+        </fieldset>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous">
+    </script>
+
+    <script src="assets/script/index.js"></script>
+</body>
+
+</html>
