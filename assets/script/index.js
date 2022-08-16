@@ -31,3 +31,7 @@ const calcDivide = () => {
     document.getElementById('resultDivide').innerHTML= result;
     return result;
 }
+
+const changeBackground = (sender) => {
+    sender.classList.add("background-change");
+}
