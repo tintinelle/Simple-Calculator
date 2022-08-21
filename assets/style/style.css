@@ -3,7 +3,7 @@
   grid-template-columns: 1fr 1fr;
   grid-gap: 1%;
 
-  padding: 5%;
+  padding: 1%;
   min-height: 50rem;
 
   text-align: center;
@@ -18,7 +18,7 @@
   border: 3px solid #FFAA5A;
   border-radius: 50px;
 
-  padding-top: 1%;
+  padding: 2%;
 }
 
 .main__sum,
@@ -45,6 +45,16 @@
   border-radius: 50px;
 
   font-size: 1.5em;
+}
+
+.main__clear {
+  grid-area: 4/1/5/3;
+
+  padding: 2%;
+
+  background-color: #D2FF96;
+  border: 3px solid #FFAA5A;
+  border-radius: 50px;
 }
 
 .background-change {
