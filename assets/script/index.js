@@ -24,9 +24,18 @@ const calcMultiply = () => {
     return result;
 }
 
+// const calcDivide = () => {
+//     const firstNumber = document.getElementById('firstNumberDivide').value;
+//     const secondNumber = document.getElementById('secondNumberDivide').value;
+//     const result = firstNumber / secondNumber;
+//     document.getElementById('resultDivide').innerHTML= result;
+//     return result;
+// }
+
 const calcDivide = () => {
     const firstNumber = document.getElementById('firstNumberDivide').value;
     const secondNumber = document.getElementById('secondNumberDivide').value;
+    (secondNumber = 0) ? alert ('ggg') :
     const result = firstNumber / secondNumber;
     document.getElementById('resultDivide').innerHTML= result;
     return result;
